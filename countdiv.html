@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>countdiv</title>
+	<style>
+		.main{
+			width: 600px;
+         height: 600px;
+         background-color: gold;
+		}
+		#p1col1{
+			width: 200px;
+         height: 500px;
+         background-color: seagreen;
+
+		}
+		.p1col1{
+         width: 200px;
+         height: 200px;
+         background-color: violet;
+         float: left;
+        }
+        .p1col2{
+         width: 200px;
+         height: 200px;
+         background-color: violet;
+         float: left;
+        }
+        .p1col3{
+         width: 200px;
+         height: 200px;
+         background-color: violet;
+         float: left;
+        }
+        .p2col{
+         width: 600px;
+         height: 200px;
+         background-color: violet;
+         float: left;
+        }
+        #parent3{
+         width: 300px;
+         height: 200px;
+         background-color: red;
+         float: left;
+        }
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div><!--parent 1-->
+			<div class="p1col1">
+				HOME
+			</div>
+			<div class="p1col2">
+				about
+			</div>
+			<div class="p1col3">
+				contact us
+			</div>
+		</div>
+		<hr>
+
+		<div><!--parent 2-->
+			<div class="p2col" align="center">
+				welcome to chandigarh university
+			</div>
+		</div>
+		<div class="parent3"><!--parent 3-->
+			<div class="p3col1">
+				iiip
+			</div>
+			<div class="p3col2">
+				academy
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
